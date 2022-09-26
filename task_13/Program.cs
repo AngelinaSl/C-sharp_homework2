@@ -7,7 +7,6 @@
 
 Console.Write("Введите число: "); // 79473
 int x = Convert.ToInt32(Console.ReadLine());
-int w = 0;
 if (x < 100)
 {
     Console.WriteLine("Здесь нет 3го числа");
