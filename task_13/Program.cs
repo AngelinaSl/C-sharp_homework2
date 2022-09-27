@@ -7,10 +7,7 @@
 
 Console.Write("Введите число: "); // 79473
 int x = Convert.ToInt32(Console.ReadLine());
-if (x < 100)
-{
-    Console.WriteLine("Здесь нет 3го числа");
-}
+if (x < 100) Console.WriteLine("Здесь нет 3го числа");
 else if (x >=100 && x <=999)
 {
     int y = x % 10;
